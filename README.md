@@ -10,7 +10,7 @@ docker build --rm=true -t $(whoami)/docker-xbmc-server .
 
 to run 
 
-docker run -d --net=host -e MYSQLip:yourhostip -e MYSQLport:yourhostport -e MYSQLuser:databaseusername -e MYSQLpass:databasepassword --privileged -v local folder for storing config:/root.xbmc $(whoami)/docker-xbmc-server
+docker run -d --net=host -e MYSQLip:yourhostip -e MYSQLport:yourhostport -e MYSQLuser:databaseusername -e MYSQLpass:databasepassword --privileged -v \<local folder for storing config:/root.xbmc $(whoami)/docker-xbmc-server
 
 
 variables are
