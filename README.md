@@ -15,10 +15,10 @@ docker run -d --net=host -e MYSQLip:\<yourhostip\> -e MYSQLport:\<yourhostport\>
 
 variables are
 
-MYSQLip : MYSQL host, must be ipaddress and not hostname
-MYSQLport  : port for MYSQL host (usually 3306)
-MYSQLuser  : user for xbmc mysql 
-MYSQLpass  : password for xbmc mysql
+MYSQLip : MYSQL host, must be ipaddress and not hostname<br>
+MYSQLport  : port for MYSQL host (usually 3306)<br>
+MYSQLuser  : user for xbmc mysql <br>
+MYSQLpass  : password for xbmc mysql<br>
 
 /root/.xbmc is config folder within the image.
 
